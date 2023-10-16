@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photo editor</title>
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+    <div class="container disabled" >
+       
+        <h1>Photo Editor</h1>
+        <hr>
+        <div class="view_img">
+           <img  src="images/one.jpg" alt="">
+        </div>
+        <div class="choose_img">
+            <button>Choose image <img src="images/upload.jpg" alt="" ></button>
+            <input type="file" image="" id="" accept="image/*" hidden/>
+        </div>
+        
+        <div class="slider"> 
+            <div class="filter_view">
+                <span class="filter">Brightness</span>
+                <span class="value">100%</span>
+            </div>
+            <input type="range" name="" id="" max="200" min="0">
+        </div>
+    
+        <div class="icons_filters">
+            <p>Filters</p>
+            <div class="icons_room">
+                <button title="brightness" id="brightness" class="active"> <img src="images/brightness1.jpg" alt="" ></button>
+                <button  title="contrast" id="contrast"> <img src="images/contrast.jpg" alt="" ></button>
+                <button  title="saturate" id="saturate"> <img src="images/opacity.jpg" alt="" ></button>
+                <button  title="invert" id="invert"> <img src="images/inverter.jpg" alt="" ></button>
+                <button  title="blur" id="blur"> <img src="images/blur.jpg" alt="" ></button>
+            </div>
+            <div class="icons_room2">
+                <button  title="huerotate" id="huerotate"> <img src="images/huerotate.jpg" alt="" ></button>
+                <button  title="grayscale" id="grayscale"> <img src="images/grayscale.jpg" alt="" ></button>
+                <button  title="sepia" id="sepia"> <img src="images/speia.jpg" alt="" ></button>
+            </div>
+         </div>
+         <div class="icons_filters">
+            <p>rotate and Flip</p>
+            <div class="icons_room1">
+                <button title="rotateleft" id="rotateleft"> <img src="images/rotateleft.jpg" alt="" ></button>
+                <button title="rotateright" id="rotateright"> <img src="images/rotateright.jpg" alt="" ></button>
+                <button title="flip_x" id="flip_x"> <img src="images/flip.jpg" alt="" ></button>
+                <button title="flip_y" id="flip_y"> <img src="images/flip.jpg" alt="" ></button>
+            </div>
+         </div>
+         <div class="btn_contain">
+            <button class="reset">reset filter</button>
+            <button class="save">save image</button>
+         </div>
+
+        </div>
+    <script src="app2.js"></script>
+</body>
+</html>
